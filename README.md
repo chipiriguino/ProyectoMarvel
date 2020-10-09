@@ -1,27 +1,13 @@
--I´m your hero
-¿Quieres saber que superhéroe es el que más se adapta a ti?
-¿Te gustaría saber sus cualidades y más allá sobre cada uno de ellos?
-Si has visto las peliculas de AVENGERS y quieres saber más información de cada uno de los componentes que lo conforman,
-si estás discutiendo con un amigo después de ver la película sobre quien es más inteligente,fuerte... consúltalo con tan solo un click y sal de dudas.
+-I´m your hero Do you want to know which superhero is the one that best suits you? Would you like to know its qualities and beyond about each one of them? If you have seen AVENGERS movies and want to know more information about each of the components that make it up, if you are arguing with a friend after watching the movie about who is smarter, stronger ... consult it with just one click and get out of doubt.
 
-I´m your hero fue desarrollado usando JavaScript como parte delbootcamp para desarrolladores de Ironhack usando la API "".
+I'm your hero was developed using JavaScript as part of the Ironhack developer bootcamp using the "" API.
 
--Producto mínimo viable
-El MVP cubrirá lo siguiente:
+-Minimum viable product The MVP will cover the following:
 
-Página de inicio: La página de inicio presentará el conceptoy proporcionará enlaces al resto del sitio.
-Avengers: un usuario podrá buscar en la base de datos de superhéroes seleccionando los superhéroes que tiene en la página.
-Preguntas frecuentes: Todo lo que siempre quisiste saber sobre los superhéroes mas carismáticos de las películas de Marvel.
-Formulario de información:Para suscribirte a la página y estar informado de todas las noticias del mundo Marvel
-Inscripción: un formulario de inscripción para los nuevos usuarios.
-Inicio de sesión: formulario de inicio de sesión para usuarios existentes.
+Homepage: The home page will introduce the concept and provide links to the rest of the site. Avengers: a user will be able to search the superhero database by selecting the superheroes they have on the page. Frequently Asked Questions: Everything you ever wanted to know about the most charismatic superheroes in Marvel movies. Information form: To subscribe to the page and be informed of all the news from the Marvel world. Registration: a registration form for new users. Login - Login form for existing users.
 
--Backlog
-RetroMode
-Añadir más Avengers
-La ruleta del Avenger
+-Backlog RetroMode Add more Avengers The Avenger's Roulette
 
 -Data Structure
 
--Links
-github()
+-Links github ()
