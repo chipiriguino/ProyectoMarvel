@@ -1,0 +1,86 @@
+nav {
+    width: -200px;
+    font-weight: 600;
+  }
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+nav a {
+    text-decoration: none;
+    color: black;
+  }
+/* .nav-position{
+  padding-left: ;
+  display:flex;
+  justify-content: space-between;
+   } */
+.nav-position li{
+     padding-right: 200px;
+     margin-left: 50px;
+   }
+.nav-bar{
+    margin-top:50px;
+  margin-right:100px;
+  }
+.nav-bar a{
+  color:#47463B;
+  font-size:0.6em;
+  font-weight:bold;
+  text-decoration:none;
+  margin-right:100px;
+  margin-left:-30px;
+  }
+
+  /*footer home */
+footer{
+    display:flex;
+    justify-content:center;
+    margin-left: 340px;
+    margin-top: -40px;
+    font-size: 28px;
+  }
+
+ /*enlaces estilo*/
+a:hover{
+    text-decoration: underline;
+    color:black;
+  }
+a:active{
+    color:"";
+  }
+
+  /*formulario de contacto email*/
+form{
+    background-image:url("")
+  }
+.slot-form{
+    width: 40%;
+   margin: 18px auto 0 auto;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top:100px;
+  }
+.slot-form-container label {
+   line-height: 15px;
+    margin: 5px;
+  }
+.slot-form-container input, select {
+   height: 20px;
+    outline: none;
+    padding: 3px;
+    width: 100%;
+  }
+.slot-form-container button{
+    border-color:yellow;
+    padding:10px;
+    margin-top:10px;
+    font-style:italic;
+    font-weight:bold;
+    background-color:withe;
+    border-radius:10%
+  }
