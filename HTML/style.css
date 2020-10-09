@@ -13,13 +13,8 @@ nav ul {
 nav a {
     text-decoration: none;
     color: black;
-  }
-/* .nav-position{
-  padding-left: ;
-  display:flex;
-  justify-content: space-between;
-   } */
-.nav-position li{
+  } 
+ .nav-position li{
      padding-right: 200px;
      margin-left: 50px;
    }
@@ -36,12 +31,21 @@ nav a {
   margin-left:-30px;
   }
 
+  /* imagen principal home */
+  .home-image {
+    height: 50rem;
+    padding-bottom: 30px;
+    background-size: cover;
+    margin-left: -50px;
+    margin-right: -17px;
+  }
+
   /*footer home */
 footer{
     display:flex;
     justify-content:center;
     margin-left: 340px;
-    margin-top: -40px;
+    margin-top: -250px;
     font-size: 28px;
   }
 
