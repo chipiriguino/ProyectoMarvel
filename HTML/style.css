@@ -88,3 +88,195 @@ form{
     background-color:withe;
     border-radius:10%
   }
+  /* --- RESET --- */
+
+*,
+*::after,
+*::before{
+    margin: 0;
+    padding: 0;
+    cursor: url('../images/gam1282.cur'), auto;	
+    box-sizing: border-box;
+}
+
+:root {
+    --text-color: #1A1A1A;
+    --red-color: #E3350D;
+    --red-color: #ff6541;
+    --white-color: #FFF;
+}
+
+body{
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+main{
+    padding: 30px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+a:hover{
+    color: var(--red-color);
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 20px;
+}
+
+h2{
+    color: var(--text-color);
+    font-size: 30px;
+    border-bottom: 3px solid var(--red-color);
+    display: inline;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
+
+h3 {
+    color: var(--red-color);
+    font-size: 26px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+input {
+    margin: 10px;
+    height: 40px;
+    border: none;
+    border-bottom: solid 2px var(--red-color);
+    text-align: center;
+}
+
+input:focus{
+    border-bottom: solid 2px var(--text-color);
+    outline-color: #ff6541;
+}
+
+button, .button{
+    height: 40px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 3px 3px 0px var(--red-color);
+    
+}
+
+button:hover, .button.hover{
+    background-color:#4e4e4e;
+}
+
+button:disabled, .button:disabled{
+    background-color: grey;
+}
+/* SIGNUP PAGE & LOGIN PAGE */
+
+.signup, .login{
+  margin-top: 85px;
+  text-align: center;
+}
+
+.form-wrapper{
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-wrapper > form{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 600px;
+}
+
+.message-container{
+  width: 100%;
+  max-width: 800px;
+}
+
+
+.message-container p{
+  background-color: var(--red-color);
+  padding: 20px;
+  margin: 10px 0;
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 10px #feb1b1;
+}
+
+.message-container p.correct-message {
+  background-color: rgb(47, 164, 93);
+  box-shadow: 0 0 10px #dbf1c1;
+}
+
+/* POKEDEX PAGE */
+
+.header-pokedex{
+  background: url(../images/fb24a57d5d82b2fa23c3c3878091530d.jpg) no-repeat center top /cover;
+  height:60vh;
+}
+
+.pokemon-list{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+  max-width: 1100px;
+}
+
+.pokemon-list > article{
+  width: 30%;
+  margin: 1%;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.pokemon-list > article > img{
+  width: 75%;
+}
+
+.pokemon-list > article > h3{
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color:var(--red-color);
+}
+
+.pokemon-list > article > div{
+  display: flex;
+}
+.pokemon-list > article > div > .pokemon-type-label{
+  background-color: #4f4f4f;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin: 10px 4px;
+}
+
+@media (max-width: 768px){
+  .pokemon-list > article{
+      width: 100%
+  }
+}
