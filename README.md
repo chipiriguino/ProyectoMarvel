@@ -20,4 +20,4 @@ I'm your hero was developed using JavaScript as part of the Ironhack developer b
 </ul>
 <h2>Data Structure</h2>
 
-<h2>Links github (<a href="https://github.com/chipiriguino/ProyectoMarvel"></a>)</h2>
+<h2>Links github (<a href="https://github.com/chipiriguino/ProyectoMarvel">Proyecto Marvel</a>)</h2>
