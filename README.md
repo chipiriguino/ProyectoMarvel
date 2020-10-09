@@ -7,16 +7,17 @@ I'm your hero was developed using JavaScript as part of the Ironhack developer b
 <h2>Minimum viable product The MVP will cover the following:</h2>
 
 <h5>Homepage:</h5> The home page will introduce the concept and provide links to the rest of the site.
-<h5>Avengers:</h5> a user will be able to search the superhero database by selecting the superheroes they have on the page.
+<h5>Avengers:</h5> A user will be able to search the superhero database by selecting the superheroes they have on the page.
 <h5>Frequently Asked Questions:</h5> Everything you ever wanted to know about the most charismatic superheroes in Marvel movies.
 <h5>Information form: </h5>To subscribe to the page and be informed of all the news from the Marvel world. 
-<h5>Registration: </h5>a registration form for new users. Login - Login form for existing users.
+<h5>Registration: </h5>A registration form for new users. Login - Login form for existing users.
 
 <h2>Backlog</h2>
-RetroMode 
-Add more Avengers 
-The Avenger's Roulette
-
+<ul>
+<li>RetroMode</li>
+<li>Add more Avengers </li>
+<li>The Avenger's Roulette</li>
+</ul>
 <h2>Data Structure</h2>
 
 <h2>Links github ()</h2>
