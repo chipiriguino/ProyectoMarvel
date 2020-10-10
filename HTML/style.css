@@ -198,9 +198,32 @@ font-size: -10px;
 .superh{
   display:flex;
   justify-content:space-around ;
-  flex-direction: row;
+  margin-top: 100px;
 }
-
+.lista ul
+{
+   padding-right: 0px;
+   padding-left: 0px;
+   padding-bottom: 0px;
+   padding-top: 0px;
+   margin: 0px;
+}
+.lista li
+{
+   list-style-type: none;
+   display: inline;
+   padding-right: 5px;
+   padding-right: 15px;
+}
+.avg{
+margin-left: 25%;
+}
+.avgdesc{
+  text-align: justify;
+  margin-right: 25%;
+  margin-left: 25%;
+  padding-top: 25px;
+}
 
 
   /* --- RESET --- */
