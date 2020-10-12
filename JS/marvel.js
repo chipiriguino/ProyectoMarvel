@@ -1,20 +1,36 @@
 const getMarvel=async()=>{
     const respose=await fetch("https://superheroapi-m1.herokuapp.com/heroes")
     const marvel=await respose.json()
-return marvel
+    let sh=[]
+    
+    for( let i=0;i<marvel.length;i++){
+        if(marvel[i].name==="Iron Man" || marvel[i].name==="Captain America" || marvel[i].name==="Thor" || marvel[i].name==="Hulk"|| marvel[i].name==="Hawkeye" || marvel[i].name==="Black Panther" || marvel[i].name==="Groot" || marvel[i].name==="Ant-Man" || marvel[i].name==="Doctor Strange"){
+        sh.push(marvel[i])
+    }   
+    return sh
 }
 
 
-const ironMan=async()=>{
+const getInfo=async()=>{
 const marvel= await getMarvel()
-let sh=[]
-for( let i=0;i<marvel.length;i++){
-if(marvel[i].name==="Iron Man" || marvel[i].name==="Captain America" || marvel[i].name==="Thor" || marvel[i].name==="Hulk"|| marvel[i].name==="Hawkeye" || marvel[i].name==="Black Panther" || marvel[i].name==="Groot" || marvel[i].name==="Ant-Man" || marvel[i].name==="Doctor Strange"){
-sh.push(marvel[i])
+const ironmanImage = document.querySelector("#iron")
+const ironman = []
+
+marvel.forEach(function(heroe){
+   if( heroe.name === "Iron Man"){
+       ironman.push(heroe)
+   } 
+})
+
+ironmanImage.innerHTML += "<p>His name is:"+ironman.name+" ,and his powerstats are:"+"Speed:"+ ironman.powerstats.speed+" Intelligence:"+ ironman.powerstats.intelligence+" Strength:"+ ironman.powerstats.strength+" Power:"+ ironman.powerstats.power+" Combat:"+ ironman.powerstats.combat+". We can know more about our friend avenger through his biography:"+"His real full name is "+ironman.biography.fullName+". His alterEgos:"+ironman.biography.alterEgos+". And his aliases:"+ironman.biography.aliases+". And even know more with our top secret files: Like his occupation: "+ironman.work.occupation+" and his base: "+ironman.work.base + "</p>"
+
 }
-}
-return sh
-// return "His name is:"+sh[0].name+" ,and his powerstats are:"+"Speed:"+ sh[0].powerstats.speed+" Intelligence:"+ sh[0].powerstats.intelligence+" Strength:"+ sh[0].powerstats.strength+" Power:"+ sh[0].powerstats.power+" Combat:"+ sh[0].powerstats.combat+". We can know more about our friend avenger through his biography:"+"His real full name is "+sh.[0].biography.fullName+". His alterEgos:"+sh[0].biography.alterEgos+". And his aliases:"+sh[0].biography.aliases+". And even know more with our top secret files: Like his occupation: "+sh[0].work.occupation+" and his base: "+sh[0].work.base
+
+const ironmanImage = document.querySelector("#iron")
+
+ironmanImage.addEventListener('click', getInfo)
+
+// return "His name is:"+ironman.name+" ,and his powerstats are:"+"Speed:"+ ironman.powerstats.speed+" Intelligence:"+ ironman.powerstats.intelligence+" Strength:"+ ironman.powerstats.strength+" Power:"+ ironman.powerstats.power+" Combat:"+ ironman.powerstats.combat+". We can know more about our friend avenger through his biography:"+"His real full name is "+sh.[0].biography.fullName+". His alterEgos:"+ironman.biography.alterEgos+". And his aliases:"+ironman.biography.aliases+". And even know more with our top secret files: Like his occupation: "+ironman.work.occupation+" and his base: "+ironman.work.base
 // return "His name is:"+sh[1].name+" ,and his powerstats are:"+"Speed:"+ sh[1].powerstats.speed+" Intelligence:"+ sh[1].powerstats.intelligence+" Strength:"+ sh[1].powerstats.strength+" Power:"+ sh[1].powerstats.power+" Combat:"+ sh[1].powerstats.combat+". We can know more about our friend avenger through his biography:"+"His real full name is "+sh.[1].biography.fullName+". His alterEgos:"+sh[1].biography.alterEgos+". And his aliases:"+sh[1].biography.aliases+". And even know more with our top secret files: Like his occupation: "+sh[1].work.occupation+" and his base: "+sh[1].work.base
 // return "His name is:"+sh[2].name+" ,and his powerstats are:"+"Speed:"+ sh[2].powerstats.speed+" Intelligence:"+ sh[2].powerstats.intelligence+" Strength:"+ sh[2].powerstats.strength+" Power:"+ sh[2].powerstats.power+" Combat:"+ sh[2].powerstats.combat+". We can know more about our friend avenger through his biography:"+"His real full name is "+sh.[2].biography.fullName+". His alterEgos:"+sh[2].biography.alterEgos+". And his aliases:"+sh[2].biography.aliases+". And even know more with our top secret files: Like his occupation: "+sh[2].work.occupation+" and his base: "+sh[2].work.base
 // return "His name is:"+sh[3].name+" ,and his powerstats are:"+"Speed:"+ sh[3].powerstats.speed+" Intelligence:"+ sh[3].powerstats.intelligence+" Strength:"+ sh[3].powerstats.strength+" Power:"+ sh[3].powerstats.power+" Combat:"+ sh[3].powerstats.combat+". We can know more about our friend avenger through his biography:"+"His real full name is "+sh.[3].biography.fullName+". His alterEgos:"+sh[3].biography.alterEgos+". And his aliases:"+sh[3].biography.aliases+". And even know more with our top secret files: Like his occupation: "+sh[3].work.occupation+" and his base: "+sh[3].work.base
@@ -26,4 +42,6 @@ return sh
 
 }
 
-ironMan()
+
+
+
