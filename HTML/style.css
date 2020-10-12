@@ -16,6 +16,7 @@ body {
 }
 @keyframes ironman{
   50% {
+
     transform: translate(0, 90px);
  }
 
@@ -472,6 +473,7 @@ button:disabled, .button:disabled{
   .container{
     font-size:12px
   }
+  
 	}
 /* MOBILE */
 @media screen and (max-width:375px) {
@@ -496,5 +498,20 @@ button:disabled, .button:disabled{
   h4{
     font-size: 14px;
   }
+  .footeer{
+    margin-left:120px;
   
-	}
+  }
+  footer a{
+  padding-top: 330px;
+  margin-right:20px;
+  font-size: 13px;
+  font-weight: 800;
+  }
+  footer li{
+    margin-right: 4px;
+  }
+  .cuerpohome{
+    padding-top:50px
+  }
+ }
