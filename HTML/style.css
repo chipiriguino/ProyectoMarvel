@@ -117,39 +117,7 @@ body {
 } 
 
 /* fin vav */
-nav {
-    width: -200px;
-    font-weight: 600;
-  }
-  
-nav ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
-  
-nav a {
-    text-decoration: none;
-    color: black;
-    font-size: 70px;
-  } 
- .nav-position li{
-     padding-right: 200px;
-     margin-left: 50px;
-   }
-.nav-bar{
-    margin-top:50px;
-  margin-right:100px;
-  }
-.nav-bar a{
-  color:#47463B;
-  font-size:0.6em;
-  font-weight:bold;
-  text-decoration:none;
-  margin-right:100px;
-  margin-left:-30px;
-  }
+
 
   /* imagen principal home */
   .home-image {
@@ -282,6 +250,15 @@ margin-top: 50px;
   margin-right: 25%;
   margin-left: 25%;
   padding-top: 25px;
+}
+li p{
+  font-size: 20px;
+  color:black;
+  -webkit-text-stroke: 1px whitesmoke;
+  text-align: center;
+  margin-left: 25%;
+  margin-right: 25%;
+
 }
 
 
@@ -475,3 +452,59 @@ button:disabled, .button:disabled{
   background-image:url("") ;
   background-size: cover; 
  }
+/* Wrapper */
+#hamnav {
+  width: 100%;
+  background: #000;
+  /* Optional */
+  position: sticky;
+  top: 0;
+}
+
+/* Hide Hamburger */
+#hamnav label, #hamburger { display: none; }
+
+/* Horizontal Menu Items */
+#hamitems { display: flex; }
+#hamitems a {
+  width: 20%; /* 100% / 5 tabs = 20% */
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+#hamitems a:hover {
+  background: #401408;
+}
+
+/* [ON SMALL SCREENS] */
+@media screen and (max-width: 768px){
+  /* Show Hamburger Icon */
+  #hamnav label { 
+    display: inline-block; 
+    color: white;
+    background: #a02620;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+  }
+
+  /* Break down menu items into vertical */
+  #hamitems a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+  }
+
+  /* Toggle Show/Hide Menu */
+  #hamitems { display: none; }
+  #hamnav input:checked ~ #hamitems { display: block; }
+}
+
+/* [DOES NOT MATTER] */
+html, body {
+  padding: 0;
+  margin: 0;
+  font-family: arial, sans-serif;
+}

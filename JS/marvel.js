@@ -20,7 +20,7 @@ let getInfo = async () => {
     console.log(marvel)
     marvel.forEach(function (heroe) {
         if (heroe.name === "Iron Man") {
-            ironMan.innerHTML+="<p>His name is:" + heroe.name + " ,and his powerstats are:" + "Speed:" + heroe.powerstats.speed + " Intelligence:" + heroe.powerstats.intelligence + " Strength:" + heroe.powerstats.strength + " Power:" + heroe.powerstats.power + " Combat:" + heroe.powerstats.combat + ". We can know more about our friend avenger through his biography:" + "His real full name is " + heroe.biography.fullName + ". His alterEgos:" + heroe.biography.alterEgos + ". And his aliases:" + heroe.biography.aliases + ". And even know more with our top secret files: Like his occupation: " + heroe.work.occupation + " and his base: " + heroe.work.base + "</p>"
+            ironMan.innerHTML+="<p>His name is: " + heroe.name + " ,and his powerstats are:" + "Speed:" + heroe.powerstats.speed + " Intelligence:" + heroe.powerstats.intelligence + " Strength:" + heroe.powerstats.strength + " Power:" + heroe.powerstats.power + " Combat:" + heroe.powerstats.combat + ". We can know more about our friend avenger through his biography:" + "His real full name is " + heroe.biography.fullName + ". His alterEgos:" + heroe.biography.alterEgos + ". And his aliases:" + heroe.biography.aliases + ". And even know more with our top secret files: Like his occupation: " + heroe.work.occupation + " and his base: " + heroe.work.base + "</p>"
 
         }
     })
@@ -29,8 +29,6 @@ let getInfo = async () => {
 }
 const ironMan = document.querySelector(".ironmanA");
 ironMan.addEventListener("click", getInfo);
-
-
 
 
 
