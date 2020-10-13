@@ -25,7 +25,17 @@ let getInfo = async (name) => {
     marvel.forEach(function (heroe) {
         const info=document.createElement("p")
         if(name==heroe.name){   
-            info.innerHTML="<p>His name is: " + heroe.name + " ,and his powerstats are:" + "Speed:" + heroe.powerstats.speed + " Intelligence:" + heroe.powerstats.intelligence + " Strength:" + heroe.powerstats.strength + " Power:" + heroe.powerstats.power + " Combat:" + heroe.powerstats.combat + ". We can know more about our friend avenger through his biography:" + "His real full name is " + heroe.biography.fullName + ". His alterEgos:" + heroe.biography.alterEgos + ". And his aliases:" + heroe.biography.aliases + ". And even know more with our top secret files: Like his occupation: " + heroe.work.occupation + " and his base: " + heroe.work.base + "</p>"
+            info.innerHTML=
+            "<p>His name is: " + heroe.name + " ,and his powerstats are:" + "<p class='poderes'><br>Speed:" + heroe.powerstats.speed + " <br>Intelligence:" + heroe.powerstats.intelligence + " <br>Strength:" + heroe.powerstats.strength + "<br>Power:" + heroe.powerstats.power + "<br> Combat:" + heroe.powerstats.combat +
+            
+            "</p><p><br><br> We can know more about our friend avenger through his biography:" + 
+            "<br>-His real full name is " + heroe.biography.fullName + 
+            ". <br>-His alterEgos:" + heroe.biography.alterEgos + 
+            ". <br>-And his aliases:" + heroe.biography.aliases + 
+            
+            ". <br><br>And even know more with our top secret files: <br>Like his occupation: " + heroe.work.occupation + 
+            " <br>and his base: " + heroe.work.base + "</p></p>"
+            
             paragraph.appendChild(info)
         }
     })
