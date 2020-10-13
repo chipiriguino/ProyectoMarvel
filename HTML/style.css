@@ -476,8 +476,18 @@ button:disabled, .button:disabled{
   footer a{
     margin-top:150px;
   }
+  .grootA{
+    border-right: 60px;
+  }
   
-	}
+  }
+  
+
+
+
+
+
+
 /* MOBILE */
 @media screen and (max-width:375px) {
 	.avg{
@@ -517,4 +527,9 @@ button:disabled, .button:disabled{
   .cuerpohome{
     padding-top:50px
   }
+  article img{
+    width: 90px;
+    height: 90px;
+  }
+  
  }

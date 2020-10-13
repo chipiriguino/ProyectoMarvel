@@ -30,6 +30,18 @@ let getInfo = async () => {
 const ironMan = document.querySelector(".ironmanA");
 ironMan.addEventListener("click", getInfo);
 
+// function clickk(){
+//     ironMan.addEventListener("click", clickk);
+//   let popUp = document.getElementById("Iron Man");
+//   if (popUp.style.visibility == "visible") {
+//     popUp.style.visibility = "hidden";
+//   } else {
+//     popUp.style.visibility = "visible";
+//   }
+//   ironMan.removeEventListener("click", spotClick);
+// }
+
+
 
 
 // return "His name is:"+ironman.name+" ,and his powerstats are:"+"Speed:"+ ironman.powerstats.speed+" Intelligence:"+ ironman.powerstats.intelligence+" Strength:"+ ironman.powerstats.strength+" Power:"+ ironman.powerstats.power+" Combat:"+ ironman.powerstats.combat+". We can know more about our friend avenger through his biography:"+"His real full name is "+sh.[0].biography.fullName+". His alterEgos:"+ironman.biography.alterEgos+". And his aliases:"+ironman.biography.aliases+". And even know more with our top secret files: Like his occupation: "+ironman.work.occupation+" and his base: "+ironman.work.base
