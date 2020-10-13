@@ -257,10 +257,10 @@ margin-top: 50px;
   margin-left: 25%;
   padding-top: 25px;
 }
-li p{
+div p{
   font-size: 20px;
   color:black;
-  -webkit-text-stroke: 1px whitesmoke;
+  -webkit-text-stroke: 1px black;
   text-align: center;
   margin-left: 25%;
   margin-right: 25%;
@@ -476,8 +476,10 @@ button:disabled, .button:disabled{
   footer a{
     margin-top:150px;
   }
-  .grootA{
-    border-right: 60px;
+  
+  div p{
+    text-align: center;
+    font-size: 16px;
   }
   
   }
@@ -530,6 +532,10 @@ button:disabled, .button:disabled{
   article img{
     width: 90px;
     height: 90px;
+  }
+  div p{
+    text-align: center;
+    font-size: 12px;
   }
   
  }
