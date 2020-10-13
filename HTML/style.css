@@ -473,6 +473,9 @@ button:disabled, .button:disabled{
   .container{
     font-size:12px
   }
+  footer a{
+    margin-top:150px;
+  }
   
 	}
 /* MOBILE */
