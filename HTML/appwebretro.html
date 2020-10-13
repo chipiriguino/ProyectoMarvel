@@ -9,43 +9,49 @@
 </head>
 
 <body class="retroavg">
-    <div class="topnav" id="myTopnav">
-        <a href="home.html" class="active"><img src="https://www.freepnglogos.com/uploads/marvel-logo-png/new-marvel-studios-logo-debuted-marvelstudios-3.png" alt="Logo marvel" width="100" height="30"></a>
-        <a href="homeretromode.html">Home</a>
-        <a href="FAQ.html">FAQ</a>
-        <a href="signup.html">Sing Up</a>
-        <a href="login.html">Log In</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div> 
+  <nav id="hamnav">
+    <!-- [THE HAMBURGER] -->
+    <label for="hamburger">&#9776;</label>
+    <input type="checkbox" id="hamburger"/>
+
+    <!-- [MENU ITEMS] -->
+    <div id="hamitems">
+      <a href="homeretromode.html" class="active"><img src="https://www.freepnglogos.com/uploads/marvel-logo-png/new-marvel-studios-logo-debuted-marvelstudios-3.png" alt="Logo marvel" width="100" height="30"></a>
+      <a href="homeretromode.html">Home</a>
+      <a href="FAQretro.html">FAQ</a>
+      <a href="signup.html">Sign up</a>
+      <a href="login.html">Log in</a>
+    </div>
+  </nav>
     <section>
     <section class="intro">
         <img class="avg" src="https://www.freepnglogos.com/uploads/avengers-png-logo/denizignko-bies-the-avengers-logo-vector-4.png" alt="logo" width="700px" height="300px">
-    <p class="avgdesc">There is no better way to know our superheroes than with an image, to be able to recognize them, and a description of each one with their names, attributes and powers, where we can observe each of the qualities that each one has on a scale of 1- 100 to be able to compare them</p>
+    <p class="avgdesc">There is no better way to know our superheroes than with an image, to be able to recognize them, and a description of each one with their names, attributes and powers, where we can observe each of the qualities that each one has on a scale of 1- 100 to be able to compare them.Press your hero:</p>
     </section>
     <section class="superh">
         <ul class="lista">
-    <li><img src="https://freepngimg.com/thumb/iron_man/83775-invincible-character-figurine-fictional-book-iron-comic-thumb.png" alt="ironman" width="100px" height="150px"></li>
-    <li><img src="http://pngimg.com/uploads/captain_america/captain_america_PNG76.png" alt="capitan anerica" width="90px" height="150px">
+    <li class="ironmanA"><img src="https://freepngimg.com/thumb/iron_man/83775-invincible-character-figurine-fictional-book-iron-comic-thumb.png" alt="ironman" width="100px" height="150px"></li>
+    <li class="americaA"><img src="http://pngimg.com/uploads/captain_america/captain_america_PNG76.png" alt="capitan anerica" width="90px" height="150px">
     </li>
-    <li><img src="http://pngimg.com/uploads/hulk/hulk_PNG119.png" alt="Hulk" width="120px" height="150px">
+    <li class="hulkA"><img src="http://pngimg.com/uploads/hulk/hulk_PNG119.png" alt="Hulk" width="120px" height="150px">
     </li>
-    <li><img src="http://pngimg.com/uploads/groot/groot_PNG12.png" alt="Groot" width="90px" height="150px">
+    <li class="grootA"><img src="http://pngimg.com/uploads/groot/groot_PNG12.png" alt="Groot" width="90px" height="150px">
     </li>
-    <li><img src="https://www.pngarts.com/files/5/Doctor-Strange-PNG-Image-Background.png" alt="Doctor Strange" width="130px" height="150px">
+    <li class="dcstrangeA"><img src="https://www.pngarts.com/files/5/Doctor-Strange-PNG-Image-Background.png" alt="Doctor Strange" width="130px" height="150px">
     </li>
-    <li><img src="https://freepngimg.com/thumb/antman/7-2-ant-man-free-download-png-thumb.png" alt="Ant-man" width="110px" height="150px">
+    <li class="antmanA"><img src="https://freepngimg.com/thumb/antman/7-2-ant-man-free-download-png-thumb.png" alt="Ant-man" width="110px" height="150px">
     </li>
-    <li><img src="https://freepngimg.com/thumb/iron_man/84336-alliance-character-fictional-thor-hulk-muscle-avengers-thumb.png" alt="Thor" width="110px" height="150px">
+    <li class="thorA"><img src="https://freepngimg.com/thumb/iron_man/84336-alliance-character-fictional-thor-hulk-muscle-avengers-thumb.png" alt="Thor" width="110px" height="150px">
     </li>
     <!-- <li><img src="https://freepngimg.com/thumb/black_widow/4-2-black-widow-picture-thumb.png" alt="Black Widow" width="120px" height="150px">
     </li> -->
-    <li><img src="https://www.freepngimg.com/thumb/black_panther/4-2-black-panther-free-download-png-thumb.png" alt="black phanter" width="110px" height="150px">
+    <li class="pantherA"><img src="https://www.freepngimg.com/thumb/black_panther/4-2-black-panther-free-download-png-thumb.png" alt="black phanter" width="110px" height="150px">
     </li>
-    <li><img src="https://freepngimg.com/thumb/hawkeye/4-2-hawkeye-png-clipart-thumb.png" alt="hawk eye" width="110px" height="150px">
+    <li class="hawkA"><img src="https://freepngimg.com/thumb/hawkeye/4-2-hawkeye-png-clipart-thumb.png" alt="hawk eye" width="110px" height="150px">
     </li>
 </ul>
     </section>
+    <div class="ironmanB"></div>
+    <script src="../JS/marvel.js"></script>
 </body>
 </html>
