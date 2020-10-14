@@ -26,7 +26,7 @@ I'm your hero was developed using JavaScript as part of the Ironhack developer b
 <li>appwebretro.html</li>
 <li>FAQ.html</li>
 <li>FAQretro.html</li>
-<li>home.html</li>
+<li>index.html</li>
 <li>homeretro.html</li>
 <li>login.html</li>
 <li>loginretro.html</li>

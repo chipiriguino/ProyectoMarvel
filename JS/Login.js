@@ -44,7 +44,7 @@ class Login {
     }
     else {
       // si el inicio de sesión no se ha realizado correctamente
-      message.innerHTML = 'el email o/y password son incorectos';
+      message.innerHTML = 'The email or / and password are incorrect';
     }
 
     this.messageContainer.appendChild(message);
@@ -53,7 +53,7 @@ class Login {
   }
 
   redirect = () => {
-    setTimeout( ()=> location.assign('home.html'), 2000);
+    setTimeout( ()=> location.assign('index.html'), 2000);
   }
 
 }
