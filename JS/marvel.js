@@ -8,7 +8,7 @@ const getMarvel = async () => {
         if (marvel[i].name === "Iron Man" || marvel[i].name === "Captain America" || marvel[i].name === "Thor" || marvel[i].name === "Hulk" || marvel[i].name === "Hawkeye" || marvel[i].name === "Black Panther" || marvel[i].name === "Groot" || marvel[i].name === "Ant-Man" || marvel[i].name === "Doctor Strange") {
             sh.push(marvel[i])
         }
-        
+
     }
     return sh
 }
@@ -16,58 +16,58 @@ const getMarvel = async () => {
 
 
 let getInfo = async (name) => {
-    const paragraph=document.querySelector(".ironmanB")
+    const paragraph = document.querySelector(".ironmanB")
     let marvel = await getMarvel()
     console.log(marvel)
-    paragraph.innerHTML=""
-    
+    paragraph.innerHTML = ""
+
     console.log(marvel)
     marvel.forEach(function (heroe) {
-        const info=document.createElement("p")
-        if(name==heroe.name){   
-            info.innerHTML=
-            "<p>His name is: " + heroe.name + " ,and his powerstats are:" + "<p class='poderes'><br>Speed:" + heroe.powerstats.speed + " <br>Intelligence:" + heroe.powerstats.intelligence + " <br>Strength:" + heroe.powerstats.strength + "<br>Power:" + heroe.powerstats.power + "<br> Combat:" + heroe.powerstats.combat +
-            
-            "</p><p><br><br> We can know more about our friend avenger through his biography:" + 
-            "<br>-His real full name is " + heroe.biography.fullName + 
-            ". <br>-His alterEgos:" + heroe.biography.alterEgos + 
-            ". <br>-And his aliases:" + heroe.biography.aliases + 
-            
-            ". <br><br>And even know more with our top secret files: <br>Like his occupation: " + heroe.work.occupation + 
-            " <br>and his base: " + heroe.work.base + "</p></p>"
-            
+        const info = document.createElement("p")
+        if (name == heroe.name) {
+            info.innerHTML =
+                "<p class='txtappweb' id='txtappweb1'>His name is: " + heroe.name + " ,and his powerstats are:" + "<p class='txtappweb' id='txtappweb1' class='poderes'><br>Speed:" + heroe.powerstats.speed + " <br>Intelligence:" + heroe.powerstats.intelligence + " <br>Strength:" + heroe.powerstats.strength + "<br>Power:" + heroe.powerstats.power + "<br> Combat:" + heroe.powerstats.combat +
+
+                "</p><p class='txtappweb' id='txtappweb1'><br><br> We can know more about our friend avenger through his biography:" +
+                "<br>-His real full name is " + heroe.biography.fullName +
+                ". <br>-His alterEgos:" + heroe.biography.alterEgos +
+                ". <br>-And his aliases:" + heroe.biography.aliases +
+
+                ". <br><br>And even know more with our top secret files: <br>Like his occupation: " + heroe.work.occupation +
+                " <br>and his base: " + heroe.work.base + "</p></p>"
+
             paragraph.appendChild(info)
         }
     })
-   
+
 
 }
 const ironMan = document.querySelector(".ironmanA");
-ironMan.addEventListener("click",()=> getInfo("Iron Man"));
+ironMan.addEventListener("click", () => getInfo("Iron Man"));
 
 const thor = document.querySelector(".thorA");
-thor.addEventListener("click",()=> getInfo("Thor"));
+thor.addEventListener("click", () => getInfo("Thor"));
 
 const hulk = document.querySelector(".hulkA");
-hulk.addEventListener("click",()=> getInfo("Hulk"))
+hulk.addEventListener("click", () => getInfo("Hulk"))
 
 const ant = document.querySelector(".antmanA");
-ant.addEventListener("click",()=> getInfo("Ant-Man"))
+ant.addEventListener("click", () => getInfo("Ant-Man"))
 
 const hawk = document.querySelector(".hawkA");
-hawk.addEventListener("click",()=> getInfo("Hawkeye"))
+hawk.addEventListener("click", () => getInfo("Hawkeye"))
 
 const pant = document.querySelector(".pantherA");
-pant.addEventListener("click",()=> getInfo("Black Panther"))
+pant.addEventListener("click", () => getInfo("Black Panther"))
 
 const capi = document.querySelector(".americaA");
-capi.addEventListener("click",()=> getInfo("Captain America"))
+capi.addEventListener("click", () => getInfo("Captain America"))
 
 const dcs = document.querySelector(".dcstrangeA");
-dcs.addEventListener("click",()=> getInfo("Doctor Strange"))
+dcs.addEventListener("click", () => getInfo("Doctor Strange"))
 
 const groot = document.querySelector(".grootA");
-groot.addEventListener("click",()=> getInfo("Groot"))
+groot.addEventListener("click", () => getInfo("Groot"))
 
 // const getMarvel = async () => {
 //     const respose = await fetch("https://superheroapi-m1.herokuapp.com/heroes")
@@ -78,7 +78,7 @@ groot.addEventListener("click",()=> getInfo("Groot"))
 //         if (marvel[i].name === "Iron Man" || marvel[i].name === "Captain America" || marvel[i].name === "Thor" || marvel[i].name === "Hulk" || marvel[i].name === "Hawkeye" || marvel[i].name === "Black Panther" || marvel[i].name === "Groot" || marvel[i].name === "Ant-Man" || marvel[i].name === "Doctor Strange") {
 //             sh.push(marvel[i])
 //         }
-        
+
 //     }
 //     return sh
 // }
@@ -90,7 +90,7 @@ groot.addEventListener("click",()=> getInfo("Groot"))
 //     let marvel = await getMarvel()
 //     console.log(marvel)
 //     paragraph.innerHTML=""
-    
+
 //     console.log(marvel)
 //     marvel.forEach(function (heroe) {
 //         const info=document.createElement("p")
@@ -98,9 +98,9 @@ groot.addEventListener("click",()=> getInfo("Groot"))
 //             info.innerHTML="<p>His name is: " + heroe.name + " ,and his powerstats are:" + "Speed:" + heroe.powerstats.speed + " Intelligence:" + heroe.powerstats.intelligence + " Strength:" + heroe.powerstats.strength + " Power:" + heroe.powerstats.power + " Combat:" + heroe.powerstats.combat + ". We can know more about our friend avenger through his biography:" + "His real full name is " + heroe.biography.fullName + ". His alterEgos:" + heroe.biography.alterEgos + ". And his aliases:" + heroe.biography.aliases + ". And even know more with our top secret files: Like his occupation: " + heroe.work.occupation + " and his base: " + heroe.work.base + "</p>"
 //             paragraph.appendChild(info)
 //         }
-       
+
 //     })
-   
+
 
 // }
 // const ironMan = document.querySelector(".ironmanA");

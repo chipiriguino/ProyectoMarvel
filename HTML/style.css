@@ -257,6 +257,7 @@ margin-top: 50px;
   margin-right: 25%;
   margin-left: 25%;
   padding-top: 25px;
+  font-weight: 600;
 }
 div p{
   font-size: 20px;
@@ -470,6 +471,11 @@ button:disabled, .button:disabled{
   font-weight: 900;
   font-size: 20px;
 }
+#txtappweb1{
+  color:black;
+  font-weight: 900;
+  font-size: 20px;
+}
 
 /* FAQ RETRO */
 
@@ -537,6 +543,11 @@ button:disabled, .button:disabled{
     text-align: center;
     font-size: 16px;
   }
+  #txtappweb1{
+    color:black;
+    font-weight: 700;
+    font-size: 17px;
+  }
   
   }
   
@@ -574,10 +585,10 @@ button:disabled, .button:disabled{
   
   }
   footer a{
-  padding-top: 180px;
+  padding-top: 160px;
   margin-right:20px;
   font-size: 13px;
-  font-weight: 800;
+  font-weight: 900;
   }
   footer li{
     margin-right: 4px;
@@ -592,6 +603,11 @@ button:disabled, .button:disabled{
   div p{
     text-align: center;
     font-size: 12px;
+  }
+  #txtappweb1{
+    color:black;
+    font-weight: 600;
+    font-size: 15px;
   }
   
  }
