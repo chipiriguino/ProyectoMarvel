@@ -20,5 +20,28 @@ I'm your hero was developed using JavaScript as part of the Ironhack developer b
 <li>The Avenger's Roulette</li>
 </ul>
 <h2>Data Structure</h2>
+<h5>HTML/</h5>
+appweb.html
+appwebretro.html
+FAQ.html
+FAQretro.html
+home.html
+homeretro.html
+login.html
+loginretro.html
+signup.html
+signupretro.html
+style.css
+
+<h5>JS/</h5>
+Database.js
+Login.js
+marvel.js
+Users.js
+Validator.js
+Signup.js
+<h5>assets/</h5>
+images/
+
 
 <h2>Links github (<a href="https://github.com/chipiriguino/ProyectoMarvel">Proyecto Marvel</a>)</h2>
