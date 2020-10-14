@@ -451,7 +451,7 @@ button:disabled, .button:disabled{
   font-size: 28px;
 }
 /* AVENGERS RETRO */
-.retroavg{
+.retroavg1{
   background: url("https://www.blogdelfotografo.com/wp-content/uploads/2020/05/paisaje-urbano-panoramica-1462x540.jpg") no-repeat center center fixed;
   
   -webkit-background-size: cover;
@@ -479,6 +479,14 @@ button:disabled, .button:disabled{
   flex-wrap: wrap;
   }
   #structure1{background: url("https://www.blogdelfotografo.com/wp-content/uploads/2012/01/silueta-estrellas-scaled.jpg") no-repeat center center fixed;
+  
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .retroavg{background: url("https://www.blogdelfotografo.com/wp-content/uploads/2012/01/silueta-estrellas-scaled.jpg") no-repeat center center fixed;
   
     -webkit-background-size: cover;
     -moz-background-size: cover;
