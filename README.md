@@ -21,27 +21,28 @@ I'm your hero was developed using JavaScript as part of the Ironhack developer b
 </ul>
 <h2>Data Structure</h2>
 <h5>HTML/</h5>
-appweb.html
-appwebretro.html
-FAQ.html
-FAQretro.html
-home.html
-homeretro.html
-login.html
-loginretro.html
-signup.html
-signupretro.html
-style.css
-
+<ul>
+<li>appweb.html</li>
+<li>appwebretro.html</li>
+<li>FAQ.html</li>
+<li>FAQretro.html</li>
+<li>home.html</li>
+<li>homeretro.html</li>
+<li>login.html</li>
+<li>loginretro.html</li>
+<li>signup.html</li>
+<li>signupretro.html</li>
+<li>style.css</li>
+</ul>
 <h5>JS/</h5>
-Database.js
-Login.js
-marvel.js
-Users.js
-Validator.js
-Signup.js
+<li>Database.js</li>
+<li>Login.js</li>
+<li>marvel.js</li>
+<li>Users.js</li>
+<li>Validator.js</li>
+<li>Signup.js</li>
 <h5>assets/</h5>
-images/
+<li>images/</li>
 
 
 <h2>Links github (<a href="https://github.com/chipiriguino/ProyectoMarvel">Proyecto Marvel</a>)</h2>
