@@ -433,22 +433,25 @@ button:disabled, .button:disabled{
   color:white;
   -webkit-text-stroke: 1px black;
   font-size: 28px;
-  font-style: Monaco;
+  font-weight: 900;
   }
 .link2r{
   color:white;
   -webkit-text-stroke: 1px black;
   font-size: 28px;
+  font-weight: 900;
 }
 .link3r{
   color:white;
   -webkit-text-stroke: 1px black;
   font-size: 28px;
+  font-weight: 900;
 }
 .link4r{
   color:white;
   -webkit-text-stroke: 1px black;
   font-size: 28px;
+  font-weight: 900;
 }
 /* AVENGERS RETRO */
 .retroavg1{
@@ -459,6 +462,12 @@ button:disabled, .button:disabled{
   -o-background-size: cover;
   background-size: cover;
 
+}
+#avgdescretro{
+  color:white;
+  -webkit-text-stroke: 1px red;
+  font-weight: 900;
+  font-size: 20px;
 }
 
 /* FAQ RETRO */
@@ -493,6 +502,17 @@ button:disabled, .button:disabled{
     -o-background-size: cover;
     background-size: cover;
   }
+  .textoFAQ{
+    color:white
+  }
+
+  /* Login Sign Retro */
+
+  .h2retro{
+    color :white;
+  }
+
+
 
          /* MEDIA QUERYS */
 
