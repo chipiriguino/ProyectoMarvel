@@ -146,6 +146,7 @@ html, body {
     margin-right: 100px;
     font-size: 20px;
     margin-top: -180px;
+    font-weight: 900;
   }
 
  /*enlaces estilo*/
@@ -594,3 +595,37 @@ button:disabled, .button:disabled{
   }
   
  }
+/* TABLET RETRO */
+@media screen and (max-width:800px) {
+#footerretro a{
+  margin-right:20px;
+  font-weight: 800;
+  }
+}
+
+ /* MOBILE RETRO*/
+@media screen and (max-width:375px) {
+
+  @keyframes nube {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: -150%;
+      width: 100%;
+    }
+  }
+  #footerretro a{
+  padding-top: 180px;
+  margin-right:20px;
+  font-size: 14px;
+  font-weight: 800;
+
+  }
+  .signup{
+    margin-top:-20px;
+  }
+  
+}
