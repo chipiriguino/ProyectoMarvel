@@ -401,7 +401,7 @@ button:disabled, .button:disabled{
   background-color: var(--red-color);
   padding: 20px;
   margin: 10px 0;
-  color: white;
+  color: black;
   border-radius: 5px;
   box-shadow: 0 0 10px #feb1b1;
 }
@@ -410,6 +410,7 @@ button:disabled, .button:disabled{
   background-color: rgb(47, 164, 93);
   box-shadow: 0 0 10px #dbf1c1;
 }
+
 
 
 /* RETRO MODE */
