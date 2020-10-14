@@ -11,6 +11,7 @@ I'm your hero was developed using JavaScript as part of the Ironhack developer b
 <h5>Frequently Asked Questions:</h5> Everything you ever wanted to know about the most charismatic superheroes in Marvel movies.
 <h5>Information form: </h5>To subscribe to the page and be informed of all the news from the Marvel world. 
 <h5>Registration: </h5>A registration form for new users. Login - Login form for existing users.
+<h5>Retro Mode:</h5>Change the appearance of the page to a version for comic book lovers.
 
 <h2>Backlog</h2>
 <ul>
