@@ -47,4 +47,5 @@ I'm your hero was developed using JavaScript as part of the Ironhack developer b
 
 
 <h2>Links github (<a href="https://github.com/chipiriguino/ProyectoMarvel">Proyecto Marvel</a>)</h2>
+<h2>Trello and Wireframes (<a href="https://trello.com/b/I8KD80eY/im-your-hero">Trello</a>)</h2>
 <h2>Link I´m your hero (<a href="https://chipiriguino.github.io/ProyectoMarvel/">I´m your hero</a>)</h2>
