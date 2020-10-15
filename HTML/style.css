@@ -504,10 +504,10 @@ button:disabled, .button:disabled{
   }
   #structure1{background: url("https://www.blogdelfotografo.com/wp-content/uploads/2012/01/silueta-estrellas-scaled.jpg") no-repeat center center fixed;
   
-    /* -webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover; */
+    background-size: cover;
   }
 
   .retroavg{background: url("https://www.blogdelfotografo.com/wp-content/uploads/2012/01/silueta-estrellas-scaled.jpg") no-repeat center center fixed;
