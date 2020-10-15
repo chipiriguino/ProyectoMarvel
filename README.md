@@ -26,7 +26,6 @@ I'm your hero was developed using JavaScript as part of the Ironhack developer b
 <li>appwebretro.html</li>
 <li>FAQ.html</li>
 <li>FAQretro.html</li>
-<li>index.html</li>
 <li>homeretro.html</li>
 <li>login.html</li>
 <li>loginretro.html</li>
@@ -43,6 +42,8 @@ I'm your hero was developed using JavaScript as part of the Ironhack developer b
 <li>Signup.js</li>
 <h5>assets/</h5>
 <li>images/</li>
+<li>index.html</li>
+<li>README.md</li>
 
 
 <h2>Links github (<a href="https://github.com/chipiriguino/ProyectoMarvel">Proyecto Marvel</a>)</h2>
